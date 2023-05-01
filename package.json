@@ -1,0 +1,23 @@
+{
+  "name": "scrape-findpartners",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmithdev/scrape-findpartners.git"
+  },
+  "author": "Jamie Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsmithdev/scrape-findpartners/issues"
+  },
+  "homepage": "https://github.com/jsmithdev/scrape-findpartners#readme",
+  "dependencies": {
+    "puppeteer": "^19.11.1"
+  }
+}
