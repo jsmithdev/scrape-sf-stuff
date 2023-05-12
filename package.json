@@ -1,11 +1,15 @@
 {
-  "name": "scrape-findpartners",
+  "name": "scrape-sf",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
+  "engine": {
+	"node": ">=18.16.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:docs": "node docs.js",
+	"dev:docs": "nodemon docs.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
   },
   "homepage": "https://github.com/jsmithdev/scrape-findpartners#readme",
   "dependencies": {
+    "excel4node": "^1.8.2",
     "puppeteer": "^19.11.1"
   }
 }
