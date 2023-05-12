@@ -8,8 +8,11 @@
 	"node": ">=18.16.0"
   },
   "scripts": {
+	"start": "node index.js",
     "start:docs": "node docs.js",
-	"dev:docs": "nodemon docs.js"
+	"dev:docs": "nodemon docs.js",
+    "start:partners": "node partners.js",
+	"dev:partners": "nodemon partners.js"
   },
   "repository": {
     "type": "git",

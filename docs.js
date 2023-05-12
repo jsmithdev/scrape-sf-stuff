@@ -7,12 +7,16 @@ import {
 
 import {
 	setup,
+	docs,
+} from './utils/puppet.js';
+
+const {
 	getNamesDMO,
 	makeUrlDMO,
 	getObjectName,
 	getFields,
 	getNamesDMO_test,
-} from './utils/puppet.js';
+} = docs;
 
 const skips = [
 	'Case DMO',

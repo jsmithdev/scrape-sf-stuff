@@ -22,7 +22,27 @@ export const styles = {
 		sheetFormat: {
 			baseColWidth: 100,
 		},
-	}
+	},
+	mediumLargeCells: {
+		sheetFormat: {
+			baseColWidth: 50,
+		},
+	},
+	mediumCells: {
+		sheetFormat: {
+			baseColWidth: 25,
+		},
+	},
+	alignRight: {
+		alignment: {
+			horizontal: 'right',
+		},
+	},
+	alignCenter: {
+		alignment: {
+			horizontal: 'center',
+		},
+	},
 }
 
 export function getWorkbook(){
